@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title-Customize</title>
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <style>
+      fieldset.options {
+        display: inline-block;
+        /* margin-left: 10px; */
+        margin-right: 10px;
+      }
+
+      div.inputs {
+        margin-right: 30px;
+        margin-bottom: 10px;
+      }
+      #submit {
+        margin-right: 50px;
+      }
+      textarea {
+        width: 28%;
+        height: 50px;
+      }
+      #customize {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Customize Subtitles</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="customize-options.html">Customize Subtitles</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Instruction</h2>
+      <ol>
+        <li>
+          customizing font, size, color, and transparency of your subtitles with
+          the area below
+        </li>
+        <li>
+          Than, press the save button to save your settings. You will now see
+          your settings in the text area, where you can type whatever you want
+          to test out.
+        </li>
+        <li>Download your setting by pressing the Download button</li>
+        <li>Lastly, add your new customize subtitle setting to a game file</li>
+      </ol>
+      <br />
+
+      <h1 id="customize">Customize Settings</h1>
+
+      <!-- main form -->
+      <form name="subtitle-settings" id="settings" method="get">
+        <!-- fonts -->
+        <fieldset form="settings" class="options">
+          <legend><h2>Font</h2></legend>
+
+          <div class="inputs">
+            <input type="radio" name="font" id="" value="" />
+            <label for="">example 1</label>
+            <br />
+
+            <input type="radio" name="font" id="" value="" />
+            <label for="">example 2</label>
+            <br />
+
+            <input type="radio" name="font" id="" value="" />
+            <label for="">example 3</label>
+          </div>
+        </fieldset>
+
+        <!-- size -->
+        <fieldset form="settings" class="options">
+          <legend><h2>Size</h2></legend>
+
+          <div class="inputs">
+            <input type="radio" name="size" id="" value="" />
+            <label for="">example 1</label>
+            <br />
+
+            <input type="radio" name="size" id="" value="" />
+            <label for="">example 2</label>
+            <br />
+
+            <input type="radio" name="size" id="" value="" />
+            <label for="">example 3</label>
+          </div>
+        </fieldset>
+
+        <!-- text color -->
+        <fieldset form="settings" class="options">
+          <legend><h2>Text Color</h2></legend>
+
+          <div class="inputs">
+            <input type="radio" name="text-color" id="" value="" />
+            <label for="">example 1</label>
+            <br />
+
+            <input type="radio" name="text-color" id="" value="" />
+            <label for="">example 2</label>
+            <br />
+
+            <input type="radio" name="text-color" id="" value="" />
+            <label for="">example 3</label>
+          </div>
+        </fieldset>
+
+        <!-- background color -->
+        <fieldset form="settings" class="options">
+          <legend><h2>Background Color</h2></legend>
+
+          <div class="inputs">
+            <input type="radio" name="background-color" id="" value="" />
+            <label for="">example 1</label>
+            <br />
+
+            <input type="radio" name="background-color" id="" value="" />
+            <label for="">example 2</label>
+            <br />
+
+            <input type="radio" name="background-color" id="" value="" />
+            <label for="">example 3</label>
+          </div>
+        </fieldset>
+
+        <!-- transparency -->
+        <fieldset form="settings" class="options">
+          <legend><h2>Transparency</h2></legend>
+
+          <div class="inputs">
+            <input type="radio" name="transparency" id="" value="" />
+            <label for="">example 1</label>
+            <br />
+
+            <input type="radio" name="transparency" id="" value="" />
+            <label for="">example 2</label>
+            <br />
+
+            <input type="radio" name="transparency" id="" value="" />
+            <label for="">example 3</label>
+          </div>
+        </fieldset>
+
+        <br />
+        <br />
+        <br />
+
+        <input type="submit" name="submitButton" id="submit" value="Save" />
+
+        <input type="reset" name="clearForm" id="clear" value="Reset" />
+      </form>
+
+      <!-- testing Area -->
+      <h2>Testing Area</h2>
+      <textarea maxlength="50">Hello World!</textarea>
+      <br />
+      <input type="reset" name="resetButton" id="reset" value="Clear" />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <input
+        type="reset"
+        name="downloadButton"
+        id="download"
+        value="Download" />
+    </main>
+    <footer>
+      <p>&#169; 2022 Jordyn Lavallee and Lily Telfer</p>
+    </footer>
+  </body>
+</html>
